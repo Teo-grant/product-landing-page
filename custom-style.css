@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;  
+    background-color: tan;
+    color: black;
+    padding-left: 68px;
+ }
+
+/* On screens that are 602px wide or less, the background color is blue */
+@media screen and (max-width:602px) {
+  body {
+      
+    background-color: blue;
+    color: white;
+    
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: black;
+    
+  }
+}
+  #header-img {
+      width: 10%;
+      padding-top: 1%;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+     .nav-link{
+       padding-left:20px;
+       margin-right: 10px;
+       bottom: 10px;
+     }
+
+     .flex-container > div {
+       background-color: #f52f2f;
+       margin-left: 10px;
+       padding-left: 69px;
+       font-size: 20px;
+}
+     .section{
+         padding-right: 10%;
+         padding-left: 20px;
+         padding-bottom: 10px;
+         text-align: 20px;
+     }

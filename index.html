@@ -1,0 +1,105 @@
+ <html>
+  <head>
+   <style>
+        body {
+    font-family: sans-serif;  
+    background-color: tan;
+    color: black;
+    padding-left: 68px;
+ }
+
+/* On screens that are 602px wide or less, the background color is blue */
+@media screen and (max-width:602px) {
+  body {
+      
+    background-color: blue;
+    color: white;
+    
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: black;
+    
+  }
+}
+  #header-img {
+      width: 10%;
+      padding-top: 1%;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+     .nav-link{
+       padding-left:20px;
+       margin-right: 10px;
+       bottom: 10px;
+     }
+
+     .flex-container div {
+       background-color: #f52f2f;
+       margin-left: 15px;
+       padding-left: 39px;
+       font-size: 16px;
+}
+     .section{
+         padding-right: 10%;
+         padding-left: 20px;
+         padding-bottom: 10px;
+         text-align: 20px;
+     }
+     .nav-link{
+             padding-bottom: 20px; 
+    }
+
+
+ </style>
+</head>
+
+<body>
+ <header id="header">
+
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Beats_Electronics_logo.svg"/>
+
+    <nav id="nav-bar">
+      <a class="nav-link" href="#learn-more">Learn More</a>
+      <a class="nav-link" href="#request-coupon">Request Coupon</a>   
+      <a class="nav-link" href="#buy-on-amazon">Buy on Amazon</a><br>  
+    </nav> 
+         
+ </header>
+   <section id="learn-more">
+     <center>
+     <h1>Beats Studio Wire less 3 
+     Headphones.</h1>
+    <iframe id="video" width="360" height="215" src="https://www.youtube.com/embed/nt1G4Dtnhf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </section>
+   <center>
+ <section id="request-coupon">
+     <form  id="form" action="https://www.freecodecamp.com/email-submit">
+     <input id="email" type="email" placeholder="email" name="email"></input>
+     <input id="submit" type= "submit" id="button">Click here</button>
+   </form>
+</section>
+</center>
+  
+   <section id="buy-on-amzon">
+     <form>
+      <div class="flex-container">
+       <div><a href="amazon-affiliate-link">Buy on Amazon</a></div>
+       <div><a href="ebay-affiliate-link">Buy on Ebay</a></div>
+       <div><a href="shure-affiliate-link">Buy on Shure</a></div>
+    </div>
+  </form>
+ </section>
+  </center>
+     <p>Pure Adaptive Noise-Cancelling blocks out external noise<em>display</em>property set to<em>flex</em>.</p>
+     <p> Wireless Bluetooth connectivity offers all-day playback.</p>
+    
+  </body>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
